@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/navigation_home"
+      android:icon="@drawable/ic_home"
+      android:title="Home" />
+
+  <item
+      android:id="@+id/navigation_sms"
+      android:icon="@drawable/ic_sms"
+      android:title="Parametros" />
+
+  <item
+      android:id="@+id/navigation_notifications"
+      android:icon="@drawable/ic_notifications"
+      android:title="Reportes" />
+
+  <item
+      android:id="@+id/navigation_facturacion"
+      android:icon="@drawable/ic_notifications"
+      android:title="Facturacion" />
+
+  <item
+      android:id="@+id/navigation_ayuda"
+      android:icon="@drawable/ic_notifications"
+      android:title="Ayuda" />
+</menu>
