@@ -18,32 +18,32 @@
         tools:layout_editor_absoluteY="69dp">
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/imageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/icono_eliminar" />
-
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@mipmap/Eliminar" />
+            app:srcCompat="@mipmap/icono_guardar" />
 
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/Borrador" />
+            app:srcCompat="@mipmap/icono_elimiar" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/Actualizar" />
+            app:srcCompat="@mipmap/icono_actualizar" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/icono_borrador" />
 
         <ImageButton
             android:id="@+id/imageButton2"
