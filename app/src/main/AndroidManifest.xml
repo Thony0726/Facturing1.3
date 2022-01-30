@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".interfaz_proveedores"
+            android:exported="false" />
+        <activity
+            android:name=".interfaz_productos"
+            android:exported="false" />
+        <activity
+            android:name=".interfaz_inventario"
+            android:exported="false" />
+        <activity
+            android:name=".interfaz_empleados"
+            android:exported="false" />
+        <activity
+            android:name=".interfas_empleados"
+            android:exported="false" />
+        <activity
             android:name=".interfaz_clientes"
             android:exported="false" />
         <activity android:name=".MainActivity">

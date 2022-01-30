@@ -4,138 +4,129 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_alignParentLeft="false"
-    android:layout_alignParentTop="false"
-    android:layout_alignParentRight="false"
-    android:layout_alignParentBottom="false"
-    tools:context=".interfaz_clientes">
+    tools:context=".interfaz_productos">
 
     <LinearLayout
-        android:layout_width="412dp"
-        android:layout_height="66dp"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        android:layout_width="408dp"
+        android:layout_height="88dp"
+        android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="156dp"
+            android:id="@+id/imageButton16"
+            android:layout_width="180dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             app:srcCompat="@mipmap/icono_retroceder" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView27"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:gravity="center_horizontal|fill_vertical"
-            android:text="Clientes"
+            android:gravity="center"
+            android:text="Productos"
             android:textColor="@color/design_default_color_on_secondary"
-            android:textSize="25sp"
-            android:textStyle="bold" />
+            android:textSize="25sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="413dp"
-        android:layout_height="73dp"
+        android:layout_height="63dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="67dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="88dp">
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/imageButton20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@mipmap/icono_guardar" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/imageButton19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@mipmap/icono_elimiar" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@mipmap/icono_borrador" />
-
-        <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButton17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@mipmap/icono_actualizar" />
 
+        <ImageButton
+            android:id="@+id/imageButton18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/icono_borrador" />
+
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="407dp"
-        android:layout_height="589dp"
-        android:layout_weight="1"
+        android:layout_width="410dp"
+        android:layout_height="580dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="142dp">
+        tools:layout_editor_absoluteY="151dp">
 
         <EditText
-            android:id="@+id/editTextTextPersonName8"
+            android:id="@+id/editTextTextPersonName31"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="73dp"
             android:ems="10"
-            android:hint="Ingrese el ID Cliente"
+            android:hint="Ingrese el ID Producto"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/editTextTextPersonName30"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="73dp"
             android:ems="10"
-            android:hint="Ingrese su Cedula"
+            android:hint="Ingrese el nombre del Producto"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName6"
+            android:id="@+id/editTextTextPersonName29"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="73dp"
             android:ems="10"
-            android:hint="Ingrese su Telefono"
+            android:hint="Ingrese el codigo el Producto"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName5"
+            android:id="@+id/editTextTextPersonName28"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="73dp"
             android:ems="10"
-            android:hint="Ingrese sus Nombres"
+            android:hint="Ingrese la unidad de medida"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/editTextTextPersonName27"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="73dp"
             android:ems="10"
-            android:hint="Ingrese sus Apellidos"
+            android:hint="Ingrese la Informacion"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/editTextTextPersonName26"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="73dp"
             android:ems="10"
-            android:hint="Ingrese su Direccion"
+            android:hint="Ingrese Observacion"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/editTextTextPersonName"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="73dp"
             android:ems="10"
-            android:hint="Ingrese su E-mail"
+            android:hint="Ingrese la Fecha"
             android:inputType="textPersonName" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

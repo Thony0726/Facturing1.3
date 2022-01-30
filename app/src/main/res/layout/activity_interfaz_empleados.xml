@@ -4,136 +4,136 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_alignParentLeft="false"
-    android:layout_alignParentTop="false"
-    android:layout_alignParentRight="false"
-    android:layout_alignParentBottom="false"
-    tools:context=".interfaz_clientes">
+    tools:context=".interfaz_empleados">
 
     <LinearLayout
-        android:layout_width="412dp"
-        android:layout_height="66dp"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        android:layout_width="410dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="156dp"
+            android:id="@+id/imageButton6"
+            android:layout_width="161dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             app:srcCompat="@mipmap/icono_retroceder" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:gravity="center_horizontal|fill_vertical"
-            android:text="Clientes"
+            android:gravity="center"
+            android:text="Empleados"
             android:textColor="@color/design_default_color_on_secondary"
-            android:textSize="25sp"
-            android:textStyle="bold" />
+            android:textSize="25sp" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="413dp"
-        android:layout_height="73dp"
+        android:layout_width="412dp"
+        android:layout_height="85dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="67dp">
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="80dp">
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/imageButton10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@mipmap/icono_guardar" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/imageButton9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@mipmap/icono_elimiar" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@mipmap/icono_borrador" />
-
-        <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButton7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@mipmap/icono_actualizar" />
 
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/icono_borrador" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="407dp"
-        android:layout_height="589dp"
+        android:layout_height="570dp"
         android:layout_weight="1"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="142dp">
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="165dp">
 
         <EditText
-            android:id="@+id/editTextTextPersonName8"
+            android:id="@+id/editTextTextPersonName16"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="65dp"
             android:ems="10"
-            android:hint="Ingrese el ID Cliente"
+            android:hint="Ingrese el ID Empleado"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/editTextTextPersonName15"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="65dp"
             android:ems="10"
-            android:hint="Ingrese su Cedula"
+            android:hint="Ingrese la Cedula"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName6"
+            android:id="@+id/editTextTextPersonName14"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="65dp"
             android:ems="10"
             android:hint="Ingrese su Telefono"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName5"
+            android:id="@+id/editTextTextPersonName13"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:hint="Ingrese su Cargo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName12"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
             android:ems="10"
             android:hint="Ingrese sus Nombres"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/editTextTextPersonName11"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="65dp"
             android:ems="10"
             android:hint="Ingrese sus Apellidos"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/editTextTextPersonName10"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="65dp"
             android:ems="10"
             android:hint="Ingrese su Direccion"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/editTextTextPersonName9"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="65dp"
             android:ems="10"
             android:hint="Ingrese su E-mail"
             android:inputType="textPersonName" />
