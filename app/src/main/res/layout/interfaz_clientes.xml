@@ -11,8 +11,8 @@
         android:orientation="horizontal"/>
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="53dp"
+        android:layout_width="404dp"
+        android:layout_height="51dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="69dp">
@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/Guardar" />
+            app:srcCompat="@mipmap/icono_guardar" />
 
         <ImageButton
             android:id="@+id/imageButton4"
